@@ -1,0 +1,12 @@
+Source: ros-melodic-desistek-saga-description
+Section: misc
+Priority: extra
+Maintainer: Emre Ege <emre.ege@desistek.com.tr>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-rostest, ros-melodic-rosunit, ros-melodic-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-desistek-saga-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-gazebo-ros, ros-melodic-robot-state-publisher, ros-melodic-uuv-assistants, ros-melodic-uuv-descriptions, ros-melodic-uuv-gazebo-ros-plugins, ros-melodic-uuv-sensor-ros-plugins
+Description: The robot description files for the Desistek SAGA ROV underwater vehicle
