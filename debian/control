@@ -1,0 +1,12 @@
+Source: ros-kinetic-desistek-saga-description
+Section: misc
+Priority: extra
+Maintainer: Emre Ege <emre.ege@desistek.com.tr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-rostest, ros-kinetic-rosunit, ros-kinetic-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-desistek-saga-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gazebo-ros, ros-kinetic-robot-state-publisher, ros-kinetic-uuv-assistants, ros-kinetic-uuv-descriptions, ros-kinetic-uuv-gazebo-ros-plugins, ros-kinetic-uuv-sensor-ros-plugins
+Description: The robot description files for the Desistek SAGA ROV underwater vehicle
