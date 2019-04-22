@@ -1,0 +1,12 @@
+Source: ros-lunar-desistek-saga-gazebo
+Section: misc
+Priority: extra
+Maintainer: Emre Ege <emre.ege@desistek.com.tr>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-desistek-saga-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-desistek-saga-control, ros-lunar-desistek-saga-description
+Description: Package with launch files for demonstrations with the Desistek SAGA ROV underwater vehicle
